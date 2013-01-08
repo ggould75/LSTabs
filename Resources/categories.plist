@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Root</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Company web sites</string>
+			<key>badgeNumber</key>
+			<integer>10</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Forums</string>
+			<key>badgeNumber</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Online shops, auctions</string>
+			<key>badgeNumber</key>
+			<integer>55</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Web2.0 web sites</string>
+			<key>badgeNumber</key>
+			<integer>120</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Social networking</string>
+			<key>badgeNumber</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>File sharing</string>
+			<key>badgeNumber</key>
+			<integer>1200</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Search engine</string>
+			<key>badgeNumber</key>
+			<integer>70</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Information web sites</string>
+			<key>badgeNumber</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Personal web sites</string>
+			<key>badgeNumber</key>
+			<integer>540</integer>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Blogs</string>
+			<key>badgeNumber</key>
+			<integer>780</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

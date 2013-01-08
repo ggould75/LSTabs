@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021B41DA159E096600C4497D /* LSMultiTabDemoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 021B41D9159E096600C4497D /* LSMultiTabDemoView.xib */; };
+		021B41E5159E0A2500C4497D /* scrolltabs_border@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 021B41E0159E0A2500C4497D /* scrolltabs_border@2x~iphone.png */; };
+		02273E37169C7E44005F31CD /* scrolltabs_background-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 02273E36169C7E44005F31CD /* scrolltabs_background-568h@2x~iphone.png */; };
+		02273E40169C8EAD005F31CD /* LSTintedButtonsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E3F169C8EAD005F31CD /* LSTintedButtonsDemoViewController.m */; };
+		02273E43169C8EB9005F31CD /* LSTabControlsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E42169C8EB9005F31CD /* LSTabControlsDemoViewController.m */; };
+		02273E46169C8EC2005F31CD /* LSStaticTabViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E45169C8EC2005F31CD /* LSStaticTabViewDemoViewController.m */; };
+		02273E49169C8ECD005F31CD /* LSHorizontalScrollTabViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E48169C8ECD005F31CD /* LSHorizontalScrollTabViewDemoViewController.m */; };
+		02273E4C169C8ED6005F31CD /* LSVerticalScrollTabViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E4B169C8ED6005F31CD /* LSVerticalScrollTabViewDemoViewController.m */; };
+		02273E51169C8EDE005F31CD /* LSMultiTabDemoViewController_Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E4E169C8EDE005F31CD /* LSMultiTabDemoViewController_Notifications.m */; };
+		02273E52169C8EDE005F31CD /* LSMultiTabDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E50169C8EDE005F31CD /* LSMultiTabDemoViewController.m */; };
+		02273E55169C8F04005F31CD /* ObjectCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E54169C8F04005F31CD /* ObjectCollection.m */; };
+		02273E5D169C8FAB005F31CD /* ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E58169C8FAB005F31CD /* ColorButton.m */; };
+		02273E5E169C8FAB005F31CD /* UIButton+shortcuts.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E5A169C8FAB005F31CD /* UIButton+shortcuts.m */; };
+		02273E5F169C8FAB005F31CD /* UIColor+components.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E5C169C8FAB005F31CD /* UIColor+components.m */; };
+		02273E6A169C8FD6005F31CD /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E61169C8FD6005F31CD /* BadgeView.m */; };
+		02273E6B169C8FD6005F31CD /* ColorPickerBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E63169C8FD6005F31CD /* ColorPickerBackgroundView.m */; };
+		02273E6C169C8FD6005F31CD /* DrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E65169C8FD6005F31CD /* DrawingUtilities.m */; };
+		02273E6D169C8FD6005F31CD /* UIImage+shortcuts.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E67169C8FD6005F31CD /* UIImage+shortcuts.m */; };
+		02273E6E169C8FD6005F31CD /* UIView+Addictions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E69169C8FD6005F31CD /* UIView+Addictions.m */; };
+		02273E70169C95B3005F31CD /* LSHorizontalScrollTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02273E6F169C95B3005F31CD /* LSHorizontalScrollTabView.xib */; };
+		02273E74169CBBD2005F31CD /* scrolltabs_horizontal_border.png in Resources */ = {isa = PBXBuildFile; fileRef = 02273E71169CBBD2005F31CD /* scrolltabs_horizontal_border.png */; };
+		02273E75169CBBD2005F31CD /* scrolltabs_horizontal_border@~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 02273E72169CBBD2005F31CD /* scrolltabs_horizontal_border@~ipad.png */; };
+		02273E76169CBBD2005F31CD /* scrolltabs_horizontal_border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02273E73169CBBD2005F31CD /* scrolltabs_horizontal_border@2x.png */; };
+		02273E79169CD0B3005F31CD /* MultiTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E78169CD0B3005F31CD /* MultiTabItem.m */; };
+		02273E7E169CD439005F31CD /* ScrollTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E7B169CD439005F31CD /* ScrollTabBarController.m */; };
+		02273E7F169CD439005F31CD /* TestVerticalScrollTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E7D169CD439005F31CD /* TestVerticalScrollTabBarView.m */; };
+		02273E84169CD45F005F31CD /* InnerTabControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E81169CD45E005F31CD /* InnerTabControl.m */; };
+		02273E85169CD45F005F31CD /* SimpleTabControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E83169CD45E005F31CD /* SimpleTabControl.m */; };
+		02273E8F169CD483005F31CD /* HorizontalTabControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E87169CD483005F31CD /* HorizontalTabControl.m */; };
+		02273E90169CD483005F31CD /* MultiTabControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E89169CD483005F31CD /* MultiTabControl.m */; };
+		02273E91169CD483005F31CD /* TintedTabControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E8C169CD483005F31CD /* TintedTabControl.m */; };
+		02273E92169CD483005F31CD /* TintedVerticalTabControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E8E169CD483005F31CD /* TintedVerticalTabControl.m */; };
+		02273E95169CD4BA005F31CD /* VerticalScrollTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02273E94169CD4B9005F31CD /* VerticalScrollTabBarView.m */; };
+		024D8D32158C8A7700AF8C60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024D8D31158C8A7700AF8C60 /* UIKit.framework */; };
+		024D8D34158C8A7700AF8C60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024D8D33158C8A7700AF8C60 /* Foundation.framework */; };
+		024D8D36158C8A7700AF8C60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024D8D35158C8A7700AF8C60 /* CoreGraphics.framework */; };
+		024D8D3C158C8A7700AF8C60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 024D8D3A158C8A7700AF8C60 /* InfoPlist.strings */; };
+		024D8D3E158C8A7700AF8C60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 024D8D3D158C8A7700AF8C60 /* main.m */; };
+		024D8D42158C8A7700AF8C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 024D8D41158C8A7700AF8C60 /* AppDelegate.m */; };
+		027B4E1F159226210030AAB4 /* LSTabControlsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027B4E1E159226210030AAB4 /* LSTabControlsView.xib */; };
+		027F5190159322F20099AB19 /* tab-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F518A159322F20099AB19 /* tab-highlighted.png */; };
+		027F5191159322F20099AB19 /* tab-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F518B159322F20099AB19 /* tab-highlighted@2x.png */; };
+		027F5192159322F20099AB19 /* tab-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F518C159322F20099AB19 /* tab-normal.png */; };
+		027F5193159322F20099AB19 /* tab-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F518D159322F20099AB19 /* tab-normal@2x.png */; };
+		027F519A159354DD0099AB19 /* tab-selected-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F5198159354DD0099AB19 /* tab-selected-highlighted@2x.png */; };
+		027F519B159354DD0099AB19 /* tab-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F5199159354DD0099AB19 /* tab-selected@2x.png */; };
+		027F519E159355EA0099AB19 /* tab-selected-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F519C159355EA0099AB19 /* tab-selected-highlighted.png */; };
+		027F519F159355EA0099AB19 /* tab-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F519D159355EA0099AB19 /* tab-selected.png */; };
+		027F51E315935E380099AB19 /* LSScrollTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F51D415935E380099AB19 /* LSScrollTabBarView.m */; };
+		027F51E415935E380099AB19 /* LSTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F51D715935E380099AB19 /* LSTabBarView.m */; };
+		027F51E515935E380099AB19 /* LSTabControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F51DA15935E380099AB19 /* LSTabControl.m */; };
+		027F51E615935E380099AB19 /* LSTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F51DD15935E380099AB19 /* LSTabItem.m */; };
+		027F51E715935E380099AB19 /* LSTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F51DF15935E380099AB19 /* LSTintedButton.m */; };
+		027F520615943B810099AB19 /* horizontal-tab-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F520215943B810099AB19 /* horizontal-tab-highlighted.png */; };
+		027F520715943B810099AB19 /* horizontal-tab-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F520315943B810099AB19 /* horizontal-tab-highlighted@2x.png */; };
+		027F520815943B810099AB19 /* horizontal-tab-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F520415943B810099AB19 /* horizontal-tab-normal.png */; };
+		027F520915943B810099AB19 /* horizontal-tab-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 027F520515943B810099AB19 /* horizontal-tab-normal@2x.png */; };
+		02B12FD7158F10780000D1E3 /* LSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B12FD6158F10780000D1E3 /* LSRootViewController.m */; };
+		02B13054158F2C570000D1E3 /* LSTintedButtonsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B13053158F2C570000D1E3 /* LSTintedButtonsView.xib */; };
+		02B13076158F7CEA0000D1E3 /* button1-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 02B13070158F7CEA0000D1E3 /* button1-normal.png */; };
+		02B13077158F7CEA0000D1E3 /* button1-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02B13071158F7CEA0000D1E3 /* button1-normal@2x.png */; };
+		02B13078158F7CEA0000D1E3 /* button1-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 02B13072158F7CEA0000D1E3 /* button1-pressed.png */; };
+		02B46681169C313600A15AF5 /* scrolltabs_border-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 02B46680169C313600A15AF5 /* scrolltabs_border-568h@2x~iphone.png */; };
+		02B6293B159618BA00999CAF /* LSVerticalScrollTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02B6293A159618BA00999CAF /* LSVerticalScrollTabView.xib */; };
+		02C977F6169AB287002D403A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C977F1169AB287002D403A /* Default-568h@2x.png */; };
+		02C977F7169AB287002D403A /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C977F2169AB287002D403A /* Default-Landscape~ipad.png */; };
+		02C977F8169AB287002D403A /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C977F3169AB287002D403A /* Default-Portrait~ipad.png */; };
+		02C977F9169AB287002D403A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C977F4169AB287002D403A /* Default.png */; };
+		02C977FA169AB287002D403A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02C977F5169AB287002D403A /* Default@2x.png */; };
+		02D001431591B4280061562A /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D001401591B4280061562A /* back-button.png */; };
+		02D001441591B4280061562A /* back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D001411591B4280061562A /* back-button@2x.png */; };
+		02D001451591B4280061562A /* button1-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D001421591B4280061562A /* button1-pressed@2x.png */; };
+		02D001481591B4A90061562A /* shaped-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D001461591B4A90061562A /* shaped-button.png */; };
+		02D001491591B4A90061562A /* shaped-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D001471591B4A90061562A /* shaped-button@2x.png */; };
+		02D09A6615A348EF009ED6EC /* tab-highlighted-colored.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D09A6215A348EF009ED6EC /* tab-highlighted-colored.png */; };
+		02D09A6715A348EF009ED6EC /* tab-highlighted-colored@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D09A6315A348EF009ED6EC /* tab-highlighted-colored@2x.png */; };
+		02D09A6815A348EF009ED6EC /* tab-normal-colored.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D09A6415A348EF009ED6EC /* tab-normal-colored.png */; };
+		02D09A6915A348EF009ED6EC /* tab-normal-colored@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D09A6515A348EF009ED6EC /* tab-normal-colored@2x.png */; };
+		02D09A6C15A35C80009ED6EC /* scrolltabs_background~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D09A6A15A35C80009ED6EC /* scrolltabs_background~iphone.png */; };
+		02D09A6D15A35C80009ED6EC /* scrolltabs_background@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D09A6B15A35C80009ED6EC /* scrolltabs_background@2x~iphone.png */; };
+		02D30E3E15A0338800A6AA71 /* tab-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D30E3A15A0338800A6AA71 /* tab-back.png */; };
+		02D30E3F15A0338800A6AA71 /* tab-back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D30E3B15A0338800A6AA71 /* tab-back@2x.png */; };
+		02D30E4015A0338800A6AA71 /* tab-options.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D30E3C15A0338800A6AA71 /* tab-options.png */; };
+		02D30E4115A0338800A6AA71 /* tab-options@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02D30E3D15A0338800A6AA71 /* tab-options@2x.png */; };
+		02E3F58615A8481100F9D125 /* scrolltabs_background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E3F58515A8481100F9D125 /* scrolltabs_background~ipad.png */; };
+		02E3F58C15A84EAE00F9D125 /* scrolltabs_border@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E3F58B15A84EAE00F9D125 /* scrolltabs_border@2x~ipad.png */; };
+		02E3F59715A8534500F9D125 /* controlpanel_view_background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E3F59315A8534300F9D125 /* controlpanel_view_background@2x~ipad.png */; };
+		02E3F59815A8534500F9D125 /* controlpanel_view_background@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E3F59415A8534300F9D125 /* controlpanel_view_background@2x~iphone.png */; };
+		02E3F59915A8534500F9D125 /* controlpanel_view_background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E3F59515A8534300F9D125 /* controlpanel_view_background~ipad.png */; };
+		02E3F59A15A8534500F9D125 /* controlpanel_view_background~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E3F59615A8534400F9D125 /* controlpanel_view_background~iphone.png */; };
+		02EEC15115A6D07700603BCC /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02EEC15015A6D07700603BCC /* categories.plist */; };
+		02FAB79F159A114D000C171A /* tab-selected-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FAB79D159A114D000C171A /* tab-selected-2.png */; };
+		02FAB7A0159A114D000C171A /* tab-selected-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02FAB79E159A114D000C171A /* tab-selected-2@2x.png */; };
+		02FAB84D159CA807000C171A /* languages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02FAB84C159CA807000C171A /* languages.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021B41D9159E096600C4497D /* LSMultiTabDemoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LSMultiTabDemoView.xib; path = ../Resources/LSMultiTabDemoView.xib; sourceTree = "<group>"; };
+		021B41E0159E0A2500C4497D /* scrolltabs_border@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrolltabs_border@2x~iphone.png"; sourceTree = "<group>"; };
+		02273E36169C7E44005F31CD /* scrolltabs_background-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrolltabs_background-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		02273E3E169C8EAD005F31CD /* LSTintedButtonsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTintedButtonsDemoViewController.h; path = Demos/LSTintedButtonsDemoViewController.h; sourceTree = "<group>"; };
+		02273E3F169C8EAD005F31CD /* LSTintedButtonsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSTintedButtonsDemoViewController.m; path = Demos/LSTintedButtonsDemoViewController.m; sourceTree = "<group>"; };
+		02273E41169C8EB9005F31CD /* LSTabControlsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSTabControlsDemoViewController.h; path = Demos/LSTabControlsDemoViewController.h; sourceTree = "<group>"; };
+		02273E42169C8EB9005F31CD /* LSTabControlsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSTabControlsDemoViewController.m; path = Demos/LSTabControlsDemoViewController.m; sourceTree = "<group>"; };
+		02273E44169C8EC2005F31CD /* LSStaticTabViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSStaticTabViewDemoViewController.h; path = Demos/LSStaticTabViewDemoViewController.h; sourceTree = "<group>"; };
+		02273E45169C8EC2005F31CD /* LSStaticTabViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSStaticTabViewDemoViewController.m; path = Demos/LSStaticTabViewDemoViewController.m; sourceTree = "<group>"; };
+		02273E47169C8ECD005F31CD /* LSHorizontalScrollTabViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSHorizontalScrollTabViewDemoViewController.h; path = Demos/LSHorizontalScrollTabViewDemoViewController.h; sourceTree = "<group>"; };
+		02273E48169C8ECD005F31CD /* LSHorizontalScrollTabViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSHorizontalScrollTabViewDemoViewController.m; path = Demos/LSHorizontalScrollTabViewDemoViewController.m; sourceTree = "<group>"; };
+		02273E4A169C8ED6005F31CD /* LSVerticalScrollTabViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSVerticalScrollTabViewDemoViewController.h; path = Demos/LSVerticalScrollTabViewDemoViewController.h; sourceTree = "<group>"; };
+		02273E4B169C8ED6005F31CD /* LSVerticalScrollTabViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSVerticalScrollTabViewDemoViewController.m; path = Demos/LSVerticalScrollTabViewDemoViewController.m; sourceTree = "<group>"; };
+		02273E4D169C8EDE005F31CD /* LSMultiTabDemoViewController_Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSMultiTabDemoViewController_Notifications.h; path = Demos/LSMultiTabDemoViewController_Notifications.h; sourceTree = "<group>"; };
+		02273E4E169C8EDE005F31CD /* LSMultiTabDemoViewController_Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSMultiTabDemoViewController_Notifications.m; path = Demos/LSMultiTabDemoViewController_Notifications.m; sourceTree = "<group>"; };
+		02273E4F169C8EDE005F31CD /* LSMultiTabDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LSMultiTabDemoViewController.h; path = Demos/LSMultiTabDemoViewController.h; sourceTree = "<group>"; };
+		02273E50169C8EDE005F31CD /* LSMultiTabDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LSMultiTabDemoViewController.m; path = Demos/LSMultiTabDemoViewController.m; sourceTree = "<group>"; };
+		02273E53169C8F04005F31CD /* ObjectCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectCollection.h; path = Demos/ObjectCollection.h; sourceTree = "<group>"; };
+		02273E54169C8F04005F31CD /* ObjectCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectCollection.m; path = Demos/ObjectCollection.m; sourceTree = "<group>"; };
+		02273E56169C8F8F005F31CD /* DemoViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoViewControllerProtocol.h; path = Demos/DemoViewControllerProtocol.h; sourceTree = "<group>"; };
+		02273E57169C8FAB005F31CD /* ColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorButton.h; path = "Demos/Other helper classes/ColorButton.h"; sourceTree = "<group>"; };
+		02273E58169C8FAB005F31CD /* ColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorButton.m; path = "Demos/Other helper classes/ColorButton.m"; sourceTree = "<group>"; };
+		02273E59169C8FAB005F31CD /* UIButton+shortcuts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+shortcuts.h"; path = "Demos/Other helper classes/UIButton+shortcuts.h"; sourceTree = "<group>"; };
+		02273E5A169C8FAB005F31CD /* UIButton+shortcuts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+shortcuts.m"; path = "Demos/Other helper classes/UIButton+shortcuts.m"; sourceTree = "<group>"; };
+		02273E5B169C8FAB005F31CD /* UIColor+components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+components.h"; path = "Demos/Other helper classes/UIColor+components.h"; sourceTree = "<group>"; };
+		02273E5C169C8FAB005F31CD /* UIColor+components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+components.m"; path = "Demos/Other helper classes/UIColor+components.m"; sourceTree = "<group>"; };
+		02273E60169C8FD6005F31CD /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BadgeView.h; path = "LSTabs/Demos/Other helper classes/BadgeView.h"; sourceTree = SOURCE_ROOT; };
+		02273E61169C8FD6005F31CD /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadgeView.m; path = "LSTabs/Demos/Other helper classes/BadgeView.m"; sourceTree = SOURCE_ROOT; };
+		02273E62169C8FD6005F31CD /* ColorPickerBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerBackgroundView.h; path = "LSTabs/Demos/Other helper classes/ColorPickerBackgroundView.h"; sourceTree = SOURCE_ROOT; };
+		02273E63169C8FD6005F31CD /* ColorPickerBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPickerBackgroundView.m; path = "LSTabs/Demos/Other helper classes/ColorPickerBackgroundView.m"; sourceTree = SOURCE_ROOT; };
+		02273E64169C8FD6005F31CD /* DrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawingUtilities.h; path = "LSTabs/Demos/Other helper classes/DrawingUtilities.h"; sourceTree = SOURCE_ROOT; };
+		02273E65169C8FD6005F31CD /* DrawingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawingUtilities.m; path = "LSTabs/Demos/Other helper classes/DrawingUtilities.m"; sourceTree = SOURCE_ROOT; };
+		02273E66169C8FD6005F31CD /* UIImage+shortcuts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+shortcuts.h"; path = "LSTabs/Demos/Other helper classes/UIImage+shortcuts.h"; sourceTree = SOURCE_ROOT; };
+		02273E67169C8FD6005F31CD /* UIImage+shortcuts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+shortcuts.m"; path = "LSTabs/Demos/Other helper classes/UIImage+shortcuts.m"; sourceTree = SOURCE_ROOT; };
+		02273E68169C8FD6005F31CD /* UIView+Addictions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Addictions.h"; path = "LSTabs/Demos/Other helper classes/UIView+Addictions.h"; sourceTree = SOURCE_ROOT; };
+		02273E69169C8FD6005F31CD /* UIView+Addictions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Addictions.m"; path = "LSTabs/Demos/Other helper classes/UIView+Addictions.m"; sourceTree = SOURCE_ROOT; };
+		02273E6F169C95B3005F31CD /* LSHorizontalScrollTabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LSHorizontalScrollTabView.xib; path = Resources/LSHorizontalScrollTabView.xib; sourceTree = SOURCE_ROOT; };
+		02273E71169CBBD2005F31CD /* scrolltabs_horizontal_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrolltabs_horizontal_border.png; sourceTree = "<group>"; };
+		02273E72169CBBD2005F31CD /* scrolltabs_horizontal_border@~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrolltabs_horizontal_border@~ipad.png"; sourceTree = "<group>"; };
+		02273E73169CBBD2005F31CD /* scrolltabs_horizontal_border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrolltabs_horizontal_border@2x.png"; sourceTree = "<group>"; };
+		02273E77169CD0B3005F31CD /* MultiTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiTabItem.h; path = "Demos/Other helper classes/MultiTabItem.h"; sourceTree = "<group>"; };
+		02273E78169CD0B3005F31CD /* MultiTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiTabItem.m; path = "Demos/Other helper classes/MultiTabItem.m"; sourceTree = "<group>"; };
+		02273E7A169CD439005F31CD /* ScrollTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollTabBarController.h; path = Demos/TabViews/ScrollTabBarController.h; sourceTree = "<group>"; };
+		02273E7B169CD439005F31CD /* ScrollTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollTabBarController.m; path = Demos/TabViews/ScrollTabBarController.m; sourceTree = "<group>"; };
+		02273E7C169CD439005F31CD /* TestVerticalScrollTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestVerticalScrollTabBarView.h; path = Demos/TabViews/TestVerticalScrollTabBarView.h; sourceTree = "<group>"; };
+		02273E7D169CD439005F31CD /* TestVerticalScrollTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestVerticalScrollTabBarView.m; path = Demos/TabViews/TestVerticalScrollTabBarView.m; sourceTree = "<group>"; };
+		02273E80169CD45E005F31CD /* InnerTabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InnerTabControl.h; path = Demos/TabControls/InnerTabControl.h; sourceTree = "<group>"; };
+		02273E81169CD45E005F31CD /* InnerTabControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InnerTabControl.m; path = Demos/TabControls/InnerTabControl.m; sourceTree = "<group>"; };
+		02273E82169CD45E005F31CD /* SimpleTabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleTabControl.h; path = Demos/TabControls/SimpleTabControl.h; sourceTree = "<group>"; };
+		02273E83169CD45E005F31CD /* SimpleTabControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleTabControl.m; path = Demos/TabControls/SimpleTabControl.m; sourceTree = "<group>"; };
+		02273E86169CD483005F31CD /* HorizontalTabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HorizontalTabControl.h; path = Demos/TabControls/HorizontalTabControl.h; sourceTree = "<group>"; };
+		02273E87169CD483005F31CD /* HorizontalTabControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HorizontalTabControl.m; path = Demos/TabControls/HorizontalTabControl.m; sourceTree = "<group>"; };
+		02273E88169CD483005F31CD /* MultiTabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiTabControl.h; path = Demos/TabControls/MultiTabControl.h; sourceTree = "<group>"; };
+		02273E89169CD483005F31CD /* MultiTabControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiTabControl.m; path = Demos/TabControls/MultiTabControl.m; sourceTree = "<group>"; };
+		02273E8A169CD483005F31CD /* TintedTabControl_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TintedTabControl_Protected.h; path = Demos/TabControls/TintedTabControl_Protected.h; sourceTree = "<group>"; };
+		02273E8B169CD483005F31CD /* TintedTabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TintedTabControl.h; path = Demos/TabControls/TintedTabControl.h; sourceTree = "<group>"; };
+		02273E8C169CD483005F31CD /* TintedTabControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TintedTabControl.m; path = Demos/TabControls/TintedTabControl.m; sourceTree = "<group>"; };
+		02273E8D169CD483005F31CD /* TintedVerticalTabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TintedVerticalTabControl.h; path = Demos/TabControls/TintedVerticalTabControl.h; sourceTree = "<group>"; };
+		02273E8E169CD483005F31CD /* TintedVerticalTabControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TintedVerticalTabControl.m; path = Demos/TabControls/TintedVerticalTabControl.m; sourceTree = "<group>"; };
+		02273E93169CD4B9005F31CD /* VerticalScrollTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerticalScrollTabBarView.h; path = Demos/TabViews/VerticalScrollTabBarView.h; sourceTree = "<group>"; };
+		02273E94169CD4B9005F31CD /* VerticalScrollTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerticalScrollTabBarView.m; path = Demos/TabViews/VerticalScrollTabBarView.m; sourceTree = "<group>"; };
+		024D8D2D158C8A7700AF8C60 /* LSTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		024D8D31158C8A7700AF8C60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		024D8D33158C8A7700AF8C60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		024D8D35158C8A7700AF8C60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		024D8D39158C8A7700AF8C60 /* LSTabs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LSTabs-Info.plist"; sourceTree = "<group>"; };
+		024D8D3B158C8A7700AF8C60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		024D8D3D158C8A7700AF8C60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		024D8D3F158C8A7700AF8C60 /* LSTabs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSTabs-Prefix.pch"; sourceTree = "<group>"; };
+		024D8D40158C8A7700AF8C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		024D8D41158C8A7700AF8C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		027B4E1E159226210030AAB4 /* LSTabControlsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LSTabControlsView.xib; path = ../Resources/LSTabControlsView.xib; sourceTree = "<group>"; };
+		027F518A159322F20099AB19 /* tab-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-highlighted.png"; sourceTree = "<group>"; };
+		027F518B159322F20099AB19 /* tab-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-highlighted@2x.png"; sourceTree = "<group>"; };
+		027F518C159322F20099AB19 /* tab-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-normal.png"; sourceTree = "<group>"; };
+		027F518D159322F20099AB19 /* tab-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-normal@2x.png"; sourceTree = "<group>"; };
+		027F5198159354DD0099AB19 /* tab-selected-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-selected-highlighted@2x.png"; sourceTree = "<group>"; };
+		027F5199159354DD0099AB19 /* tab-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-selected@2x.png"; sourceTree = "<group>"; };
+		027F519C159355EA0099AB19 /* tab-selected-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-selected-highlighted.png"; sourceTree = "<group>"; };
+		027F519D159355EA0099AB19 /* tab-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-selected.png"; sourceTree = "<group>"; };
+		027F51D315935E380099AB19 /* LSScrollTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSScrollTabBarView.h; sourceTree = "<group>"; };
+		027F51D415935E380099AB19 /* LSScrollTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSScrollTabBarView.m; sourceTree = "<group>"; };
+		027F51D515935E380099AB19 /* LSScrollTabBarView_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSScrollTabBarView_Protected.h; sourceTree = "<group>"; };
+		027F51D615935E380099AB19 /* LSTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTabBarView.h; sourceTree = "<group>"; };
+		027F51D715935E380099AB19 /* LSTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTabBarView.m; sourceTree = "<group>"; };
+		027F51D815935E380099AB19 /* LSTabBarView_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTabBarView_Protected.h; sourceTree = "<group>"; };
+		027F51D915935E380099AB19 /* LSTabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTabControl.h; sourceTree = "<group>"; };
+		027F51DA15935E380099AB19 /* LSTabControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTabControl.m; sourceTree = "<group>"; };
+		027F51DB15935E380099AB19 /* LSTabControl_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTabControl_Protected.h; sourceTree = "<group>"; };
+		027F51DC15935E380099AB19 /* LSTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTabItem.h; sourceTree = "<group>"; };
+		027F51DD15935E380099AB19 /* LSTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTabItem.m; sourceTree = "<group>"; };
+		027F51DE15935E380099AB19 /* LSTintedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTintedButton.h; sourceTree = "<group>"; };
+		027F51DF15935E380099AB19 /* LSTintedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTintedButton.m; sourceTree = "<group>"; };
+		027F520215943B810099AB19 /* horizontal-tab-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "horizontal-tab-highlighted.png"; sourceTree = "<group>"; };
+		027F520315943B810099AB19 /* horizontal-tab-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "horizontal-tab-highlighted@2x.png"; sourceTree = "<group>"; };
+		027F520415943B810099AB19 /* horizontal-tab-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "horizontal-tab-normal.png"; sourceTree = "<group>"; };
+		027F520515943B810099AB19 /* horizontal-tab-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "horizontal-tab-normal@2x.png"; sourceTree = "<group>"; };
+		02B12FD5158F10780000D1E3 /* LSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRootViewController.h; sourceTree = "<group>"; };
+		02B12FD6158F10780000D1E3 /* LSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRootViewController.m; sourceTree = "<group>"; };
+		02B13053158F2C570000D1E3 /* LSTintedButtonsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LSTintedButtonsView.xib; path = ../Resources/LSTintedButtonsView.xib; sourceTree = "<group>"; };
+		02B13070158F7CEA0000D1E3 /* button1-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button1-normal.png"; sourceTree = "<group>"; };
+		02B13071158F7CEA0000D1E3 /* button1-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button1-normal@2x.png"; sourceTree = "<group>"; };
+		02B13072158F7CEA0000D1E3 /* button1-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button1-pressed.png"; sourceTree = "<group>"; };
+		02B46680169C313600A15AF5 /* scrolltabs_border-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrolltabs_border-568h@2x~iphone.png"; sourceTree = "<group>"; };
+		02B6293A159618BA00999CAF /* LSVerticalScrollTabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LSVerticalScrollTabView.xib; path = ../Resources/LSVerticalScrollTabView.xib; sourceTree = "<group>"; };
+		02C977F1169AB287002D403A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		02C977F2169AB287002D403A /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = SOURCE_ROOT; };
+		02C977F3169AB287002D403A /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "Resources/Default-Portrait~ipad.png"; sourceTree = SOURCE_ROOT; };
+		02C977F4169AB287002D403A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = SOURCE_ROOT; };
+		02C977F5169AB287002D403A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		02D001401591B4280061562A /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
+		02D001411591B4280061562A /* back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button@2x.png"; sourceTree = "<group>"; };
+		02D001421591B4280061562A /* button1-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button1-pressed@2x.png"; sourceTree = "<group>"; };
+		02D001461591B4A90061562A /* shaped-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shaped-button.png"; sourceTree = "<group>"; };
+		02D001471591B4A90061562A /* shaped-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shaped-button@2x.png"; sourceTree = "<group>"; };
+		02D09A6215A348EF009ED6EC /* tab-highlighted-colored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-highlighted-colored.png"; sourceTree = "<group>"; };
+		02D09A6315A348EF009ED6EC /* tab-highlighted-colored@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-highlighted-colored@2x.png"; sourceTree = "<group>"; };
+		02D09A6415A348EF009ED6EC /* tab-normal-colored.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-normal-colored.png"; sourceTree = "<group>"; };
+		02D09A6515A348EF009ED6EC /* tab-normal-colored@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-normal-colored@2x.png"; sourceTree = "<group>"; };
+		02D09A6A15A35C80009ED6EC /* scrolltabs_background~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrolltabs_background~iphone.png"; sourceTree = "<group>"; };
+		02D09A6B15A35C80009ED6EC /* scrolltabs_background@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrolltabs_background@2x~iphone.png"; sourceTree = "<group>"; };
+		02D30E3A15A0338800A6AA71 /* tab-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-back.png"; sourceTree = "<group>"; };
+		02D30E3B15A0338800A6AA71 /* tab-back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-back@2x.png"; sourceTree = "<group>"; };
+		02D30E3C15A0338800A6AA71 /* tab-options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-options.png"; sourceTree = "<group>"; };
+		02D30E3D15A0338800A6AA71 /* tab-options@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-options@2x.png"; sourceTree = "<group>"; };
+		02E3F58515A8481100F9D125 /* scrolltabs_background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrolltabs_background~ipad.png"; sourceTree = "<group>"; };
+		02E3F58B15A84EAE00F9D125 /* scrolltabs_border@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrolltabs_border@2x~ipad.png"; sourceTree = "<group>"; };
+		02E3F59315A8534300F9D125 /* controlpanel_view_background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "controlpanel_view_background@2x~ipad.png"; sourceTree = "<group>"; };
+		02E3F59415A8534300F9D125 /* controlpanel_view_background@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "controlpanel_view_background@2x~iphone.png"; sourceTree = "<group>"; };
+		02E3F59515A8534300F9D125 /* controlpanel_view_background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "controlpanel_view_background~ipad.png"; sourceTree = "<group>"; };
+		02E3F59615A8534400F9D125 /* controlpanel_view_background~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "controlpanel_view_background~iphone.png"; sourceTree = "<group>"; };
+		02EEC15015A6D07700603BCC /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		02FAB79D159A114D000C171A /* tab-selected-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-selected-2.png"; sourceTree = "<group>"; };
+		02FAB79E159A114D000C171A /* tab-selected-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-selected-2@2x.png"; sourceTree = "<group>"; };
+		02FAB84C159CA807000C171A /* languages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = languages.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		024D8D2A158C8A7700AF8C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024D8D32158C8A7700AF8C60 /* UIKit.framework in Frameworks */,
+				024D8D34158C8A7700AF8C60 /* Foundation.framework in Frameworks */,
+				024D8D36158C8A7700AF8C60 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022EF0E2169C620400E47961 /* Multi Scroll Tab View */ = {
+			isa = PBXGroup;
+			children = (
+				02273E4F169C8EDE005F31CD /* LSMultiTabDemoViewController.h */,
+				02273E50169C8EDE005F31CD /* LSMultiTabDemoViewController.m */,
+				02273E4D169C8EDE005F31CD /* LSMultiTabDemoViewController_Notifications.h */,
+				02273E4E169C8EDE005F31CD /* LSMultiTabDemoViewController_Notifications.m */,
+				021B41D9159E096600C4497D /* LSMultiTabDemoView.xib */,
+				02273E7A169CD439005F31CD /* ScrollTabBarController.h */,
+				02273E7B169CD439005F31CD /* ScrollTabBarController.m */,
+				02273E7C169CD439005F31CD /* TestVerticalScrollTabBarView.h */,
+				02273E7D169CD439005F31CD /* TestVerticalScrollTabBarView.m */,
+				02273E80169CD45E005F31CD /* InnerTabControl.h */,
+				02273E81169CD45E005F31CD /* InnerTabControl.m */,
+				02273E82169CD45E005F31CD /* SimpleTabControl.h */,
+				02273E83169CD45E005F31CD /* SimpleTabControl.m */,
+				02273E53169C8F04005F31CD /* ObjectCollection.h */,
+				02273E54169C8F04005F31CD /* ObjectCollection.m */,
+				02273E77169CD0B3005F31CD /* MultiTabItem.h */,
+				02273E78169CD0B3005F31CD /* MultiTabItem.m */,
+			);
+			name = "Multi Scroll Tab View";
+			sourceTree = "<group>";
+		};
+		024D8D22158C8A7700AF8C60 = {
+			isa = PBXGroup;
+			children = (
+				024D8D37158C8A7700AF8C60 /* LSTabs */,
+				02B1304A158F212F0000D1E3 /* Resources */,
+				024D8D30158C8A7700AF8C60 /* Frameworks */,
+				024D8D2E158C8A7700AF8C60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		024D8D2E158C8A7700AF8C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				024D8D2D158C8A7700AF8C60 /* LSTabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		024D8D30158C8A7700AF8C60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				024D8D31158C8A7700AF8C60 /* UIKit.framework */,
+				024D8D33158C8A7700AF8C60 /* Foundation.framework */,
+				024D8D35158C8A7700AF8C60 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		024D8D37158C8A7700AF8C60 /* LSTabs */ = {
+			isa = PBXGroup;
+			children = (
+				024D8D40158C8A7700AF8C60 /* AppDelegate.h */,
+				024D8D41158C8A7700AF8C60 /* AppDelegate.m */,
+				02B12FD5158F10780000D1E3 /* LSRootViewController.h */,
+				02B12FD6158F10780000D1E3 /* LSRootViewController.m */,
+				02C977F1169AB287002D403A /* Default-568h@2x.png */,
+				02C977F2169AB287002D403A /* Default-Landscape~ipad.png */,
+				02C977F3169AB287002D403A /* Default-Portrait~ipad.png */,
+				02C977F4169AB287002D403A /* Default.png */,
+				02C977F5169AB287002D403A /* Default@2x.png */,
+				027F51CC15935E380099AB19 /* Library */,
+				02C977FB169AC0FA002D403A /* Demos */,
+				024D8D38158C8A7700AF8C60 /* Supporting Files */,
+			);
+			path = LSTabs;
+			sourceTree = "<group>";
+		};
+		024D8D38158C8A7700AF8C60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				024D8D39158C8A7700AF8C60 /* LSTabs-Info.plist */,
+				024D8D3A158C8A7700AF8C60 /* InfoPlist.strings */,
+				024D8D3D158C8A7700AF8C60 /* main.m */,
+				024D8D3F158C8A7700AF8C60 /* LSTabs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		027F51AB15935E090099AB19 /* Other helper classes */ = {
+			isa = PBXGroup;
+			children = (
+				02273E60169C8FD6005F31CD /* BadgeView.h */,
+				02273E61169C8FD6005F31CD /* BadgeView.m */,
+				02273E62169C8FD6005F31CD /* ColorPickerBackgroundView.h */,
+				02273E63169C8FD6005F31CD /* ColorPickerBackgroundView.m */,
+				02273E64169C8FD6005F31CD /* DrawingUtilities.h */,
+				02273E65169C8FD6005F31CD /* DrawingUtilities.m */,
+				02273E66169C8FD6005F31CD /* UIImage+shortcuts.h */,
+				02273E67169C8FD6005F31CD /* UIImage+shortcuts.m */,
+				02273E68169C8FD6005F31CD /* UIView+Addictions.h */,
+				02273E69169C8FD6005F31CD /* UIView+Addictions.m */,
+			);
+			path = "Other helper classes";
+			sourceTree = "<group>";
+		};
+		027F51CC15935E380099AB19 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				027F51E815935E490099AB19 /* Tinted button */,
+				027F51E915935E540099AB19 /* Tab control */,
+				027F51EC15935EA60099AB19 /* Tab Item */,
+				027F51EA15935E5F0099AB19 /* Tab Bar view */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		027F51E815935E490099AB19 /* Tinted button */ = {
+			isa = PBXGroup;
+			children = (
+				027F51DE15935E380099AB19 /* LSTintedButton.h */,
+				027F51DF15935E380099AB19 /* LSTintedButton.m */,
+			);
+			name = "Tinted button";
+			sourceTree = "<group>";
+		};
+		027F51E915935E540099AB19 /* Tab control */ = {
+			isa = PBXGroup;
+			children = (
+				027F51D915935E380099AB19 /* LSTabControl.h */,
+				027F51DA15935E380099AB19 /* LSTabControl.m */,
+				027F51DB15935E380099AB19 /* LSTabControl_Protected.h */,
+			);
+			name = "Tab control";
+			sourceTree = "<group>";
+		};
+		027F51EA15935E5F0099AB19 /* Tab Bar view */ = {
+			isa = PBXGroup;
+			children = (
+				027F51D615935E380099AB19 /* LSTabBarView.h */,
+				027F51D715935E380099AB19 /* LSTabBarView.m */,
+				027F51D815935E380099AB19 /* LSTabBarView_Protected.h */,
+				027F51D315935E380099AB19 /* LSScrollTabBarView.h */,
+				027F51D415935E380099AB19 /* LSScrollTabBarView.m */,
+				027F51D515935E380099AB19 /* LSScrollTabBarView_Protected.h */,
+			);
+			name = "Tab Bar view";
+			sourceTree = "<group>";
+		};
+		027F51EC15935EA60099AB19 /* Tab Item */ = {
+			isa = PBXGroup;
+			children = (
+				027F51DC15935E380099AB19 /* LSTabItem.h */,
+				027F51DD15935E380099AB19 /* LSTabItem.m */,
+			);
+			name = "Tab Item";
+			sourceTree = "<group>";
+		};
+		02B1304A158F212F0000D1E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02E3F59315A8534300F9D125 /* controlpanel_view_background@2x~ipad.png */,
+				02E3F59415A8534300F9D125 /* controlpanel_view_background@2x~iphone.png */,
+				02E3F59515A8534300F9D125 /* controlpanel_view_background~ipad.png */,
+				02E3F59615A8534400F9D125 /* controlpanel_view_background~iphone.png */,
+				02E3F58515A8481100F9D125 /* scrolltabs_background~ipad.png */,
+				02D09A6A15A35C80009ED6EC /* scrolltabs_background~iphone.png */,
+				02D09A6B15A35C80009ED6EC /* scrolltabs_background@2x~iphone.png */,
+				02273E36169C7E44005F31CD /* scrolltabs_background-568h@2x~iphone.png */,
+				021B41E0159E0A2500C4497D /* scrolltabs_border@2x~iphone.png */,
+				02E3F58B15A84EAE00F9D125 /* scrolltabs_border@2x~ipad.png */,
+				02B46680169C313600A15AF5 /* scrolltabs_border-568h@2x~iphone.png */,
+				02273E71169CBBD2005F31CD /* scrolltabs_horizontal_border.png */,
+				02273E72169CBBD2005F31CD /* scrolltabs_horizontal_border@~ipad.png */,
+				02273E73169CBBD2005F31CD /* scrolltabs_horizontal_border@2x.png */,
+				027F520215943B810099AB19 /* horizontal-tab-highlighted.png */,
+				027F520315943B810099AB19 /* horizontal-tab-highlighted@2x.png */,
+				027F520415943B810099AB19 /* horizontal-tab-normal.png */,
+				027F520515943B810099AB19 /* horizontal-tab-normal@2x.png */,
+				02D30E3A15A0338800A6AA71 /* tab-back.png */,
+				02D30E3B15A0338800A6AA71 /* tab-back@2x.png */,
+				02D30E3C15A0338800A6AA71 /* tab-options.png */,
+				02D30E3D15A0338800A6AA71 /* tab-options@2x.png */,
+				027F519C159355EA0099AB19 /* tab-selected-highlighted.png */,
+				027F519D159355EA0099AB19 /* tab-selected.png */,
+				027F5198159354DD0099AB19 /* tab-selected-highlighted@2x.png */,
+				027F5199159354DD0099AB19 /* tab-selected@2x.png */,
+				02FAB79D159A114D000C171A /* tab-selected-2.png */,
+				02FAB79E159A114D000C171A /* tab-selected-2@2x.png */,
+				027F518A159322F20099AB19 /* tab-highlighted.png */,
+				027F518B159322F20099AB19 /* tab-highlighted@2x.png */,
+				027F518C159322F20099AB19 /* tab-normal.png */,
+				027F518D159322F20099AB19 /* tab-normal@2x.png */,
+				02D09A6215A348EF009ED6EC /* tab-highlighted-colored.png */,
+				02D09A6315A348EF009ED6EC /* tab-highlighted-colored@2x.png */,
+				02D09A6415A348EF009ED6EC /* tab-normal-colored.png */,
+				02D09A6515A348EF009ED6EC /* tab-normal-colored@2x.png */,
+				02D001461591B4A90061562A /* shaped-button.png */,
+				02D001471591B4A90061562A /* shaped-button@2x.png */,
+				02D001401591B4280061562A /* back-button.png */,
+				02D001411591B4280061562A /* back-button@2x.png */,
+				02B13070158F7CEA0000D1E3 /* button1-normal.png */,
+				02B13071158F7CEA0000D1E3 /* button1-normal@2x.png */,
+				02B13072158F7CEA0000D1E3 /* button1-pressed.png */,
+				02D001421591B4280061562A /* button1-pressed@2x.png */,
+				02FAB84C159CA807000C171A /* languages.plist */,
+				02EEC15015A6D07700603BCC /* categories.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02B46671169C096700A15AF5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				02273E8B169CD483005F31CD /* TintedTabControl.h */,
+				02273E8C169CD483005F31CD /* TintedTabControl.m */,
+				02273E8A169CD483005F31CD /* TintedTabControl_Protected.h */,
+				02273E8D169CD483005F31CD /* TintedVerticalTabControl.h */,
+				02273E8E169CD483005F31CD /* TintedVerticalTabControl.m */,
+				02273E88169CD483005F31CD /* MultiTabControl.h */,
+				02273E89169CD483005F31CD /* MultiTabControl.m */,
+				02273E86169CD483005F31CD /* HorizontalTabControl.h */,
+				02273E87169CD483005F31CD /* HorizontalTabControl.m */,
+				02273E93169CD4B9005F31CD /* VerticalScrollTabBarView.h */,
+				02273E94169CD4B9005F31CD /* VerticalScrollTabBarView.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		02B46678169C1F6500A15AF5 /* Static Tab View */ = {
+			isa = PBXGroup;
+			children = (
+				02273E44169C8EC2005F31CD /* LSStaticTabViewDemoViewController.h */,
+				02273E45169C8EC2005F31CD /* LSStaticTabViewDemoViewController.m */,
+			);
+			name = "Static Tab View";
+			sourceTree = "<group>";
+		};
+		02B4667A169C205400A15AF5 /* Horizontal Scrollable Tab View */ = {
+			isa = PBXGroup;
+			children = (
+				02273E47169C8ECD005F31CD /* LSHorizontalScrollTabViewDemoViewController.h */,
+				02273E48169C8ECD005F31CD /* LSHorizontalScrollTabViewDemoViewController.m */,
+				02273E6F169C95B3005F31CD /* LSHorizontalScrollTabView.xib */,
+			);
+			name = "Horizontal Scrollable Tab View";
+			sourceTree = "<group>";
+		};
+		02B4667B169C206700A15AF5 /* Vertical Scrollable Tab View */ = {
+			isa = PBXGroup;
+			children = (
+				02273E4A169C8ED6005F31CD /* LSVerticalScrollTabViewDemoViewController.h */,
+				02273E4B169C8ED6005F31CD /* LSVerticalScrollTabViewDemoViewController.m */,
+				02B6293A159618BA00999CAF /* LSVerticalScrollTabView.xib */,
+			);
+			name = "Vertical Scrollable Tab View";
+			sourceTree = "<group>";
+		};
+		02C977FB169AC0FA002D403A /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				02273E56169C8F8F005F31CD /* DemoViewControllerProtocol.h */,
+				02C977FD169AC364002D403A /* Tinted Buttons */,
+				02C977FC169AC1AE002D403A /* Tab Controls */,
+				02B46678169C1F6500A15AF5 /* Static Tab View */,
+				02B4667A169C205400A15AF5 /* Horizontal Scrollable Tab View */,
+				02B4667B169C206700A15AF5 /* Vertical Scrollable Tab View */,
+				022EF0E2169C620400E47961 /* Multi Scroll Tab View */,
+				02B46671169C096700A15AF5 /* Common */,
+				027F51AB15935E090099AB19 /* Other helper classes */,
+			);
+			name = Demos;
+			sourceTree = "<group>";
+		};
+		02C977FC169AC1AE002D403A /* Tab Controls */ = {
+			isa = PBXGroup;
+			children = (
+				02273E41169C8EB9005F31CD /* LSTabControlsDemoViewController.h */,
+				02273E42169C8EB9005F31CD /* LSTabControlsDemoViewController.m */,
+				027B4E1E159226210030AAB4 /* LSTabControlsView.xib */,
+			);
+			name = "Tab Controls";
+			sourceTree = "<group>";
+		};
+		02C977FD169AC364002D403A /* Tinted Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				02273E3E169C8EAD005F31CD /* LSTintedButtonsDemoViewController.h */,
+				02273E3F169C8EAD005F31CD /* LSTintedButtonsDemoViewController.m */,
+				02B13053158F2C570000D1E3 /* LSTintedButtonsView.xib */,
+				02273E57169C8FAB005F31CD /* ColorButton.h */,
+				02273E58169C8FAB005F31CD /* ColorButton.m */,
+				02273E59169C8FAB005F31CD /* UIButton+shortcuts.h */,
+				02273E5A169C8FAB005F31CD /* UIButton+shortcuts.m */,
+				02273E5B169C8FAB005F31CD /* UIColor+components.h */,
+				02273E5C169C8FAB005F31CD /* UIColor+components.m */,
+			);
+			name = "Tinted Buttons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		024D8D2C158C8A7700AF8C60 /* LSTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024D8D57158C8A7700AF8C60 /* Build configuration list for PBXNativeTarget "LSTabs" */;
+			buildPhases = (
+				024D8D29158C8A7700AF8C60 /* Sources */,
+				024D8D2A158C8A7700AF8C60 /* Frameworks */,
+				024D8D2B158C8A7700AF8C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSTabs;
+			productName = LSTabs;
+			productReference = 024D8D2D158C8A7700AF8C60 /* LSTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		024D8D24158C8A7700AF8C60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Lucky Software";
+			};
+			buildConfigurationList = 024D8D27158C8A7700AF8C60 /* Build configuration list for PBXProject "LSTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 024D8D22158C8A7700AF8C60;
+			productRefGroup = 024D8D2E158C8A7700AF8C60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				024D8D2C158C8A7700AF8C60 /* LSTabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024D8D2B158C8A7700AF8C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024D8D3C158C8A7700AF8C60 /* InfoPlist.strings in Resources */,
+				02B13054158F2C570000D1E3 /* LSTintedButtonsView.xib in Resources */,
+				02B13076158F7CEA0000D1E3 /* button1-normal.png in Resources */,
+				02B13077158F7CEA0000D1E3 /* button1-normal@2x.png in Resources */,
+				02B13078158F7CEA0000D1E3 /* button1-pressed.png in Resources */,
+				02D001431591B4280061562A /* back-button.png in Resources */,
+				02D001441591B4280061562A /* back-button@2x.png in Resources */,
+				02D001451591B4280061562A /* button1-pressed@2x.png in Resources */,
+				02D001481591B4A90061562A /* shaped-button.png in Resources */,
+				02D001491591B4A90061562A /* shaped-button@2x.png in Resources */,
+				027B4E1F159226210030AAB4 /* LSTabControlsView.xib in Resources */,
+				027F5190159322F20099AB19 /* tab-highlighted.png in Resources */,
+				027F5191159322F20099AB19 /* tab-highlighted@2x.png in Resources */,
+				027F5192159322F20099AB19 /* tab-normal.png in Resources */,
+				027F5193159322F20099AB19 /* tab-normal@2x.png in Resources */,
+				027F519A159354DD0099AB19 /* tab-selected-highlighted@2x.png in Resources */,
+				027F519B159354DD0099AB19 /* tab-selected@2x.png in Resources */,
+				027F519E159355EA0099AB19 /* tab-selected-highlighted.png in Resources */,
+				027F519F159355EA0099AB19 /* tab-selected.png in Resources */,
+				027F520615943B810099AB19 /* horizontal-tab-highlighted.png in Resources */,
+				027F520715943B810099AB19 /* horizontal-tab-highlighted@2x.png in Resources */,
+				027F520815943B810099AB19 /* horizontal-tab-normal.png in Resources */,
+				027F520915943B810099AB19 /* horizontal-tab-normal@2x.png in Resources */,
+				02B6293B159618BA00999CAF /* LSVerticalScrollTabView.xib in Resources */,
+				02FAB79F159A114D000C171A /* tab-selected-2.png in Resources */,
+				02FAB7A0159A114D000C171A /* tab-selected-2@2x.png in Resources */,
+				02FAB84D159CA807000C171A /* languages.plist in Resources */,
+				021B41DA159E096600C4497D /* LSMultiTabDemoView.xib in Resources */,
+				021B41E5159E0A2500C4497D /* scrolltabs_border@2x~iphone.png in Resources */,
+				02D30E3E15A0338800A6AA71 /* tab-back.png in Resources */,
+				02D30E3F15A0338800A6AA71 /* tab-back@2x.png in Resources */,
+				02D30E4015A0338800A6AA71 /* tab-options.png in Resources */,
+				02D30E4115A0338800A6AA71 /* tab-options@2x.png in Resources */,
+				02D09A6615A348EF009ED6EC /* tab-highlighted-colored.png in Resources */,
+				02D09A6715A348EF009ED6EC /* tab-highlighted-colored@2x.png in Resources */,
+				02D09A6815A348EF009ED6EC /* tab-normal-colored.png in Resources */,
+				02D09A6915A348EF009ED6EC /* tab-normal-colored@2x.png in Resources */,
+				02D09A6C15A35C80009ED6EC /* scrolltabs_background~iphone.png in Resources */,
+				02D09A6D15A35C80009ED6EC /* scrolltabs_background@2x~iphone.png in Resources */,
+				02EEC15115A6D07700603BCC /* categories.plist in Resources */,
+				02E3F58615A8481100F9D125 /* scrolltabs_background~ipad.png in Resources */,
+				02E3F58C15A84EAE00F9D125 /* scrolltabs_border@2x~ipad.png in Resources */,
+				02E3F59715A8534500F9D125 /* controlpanel_view_background@2x~ipad.png in Resources */,
+				02E3F59815A8534500F9D125 /* controlpanel_view_background@2x~iphone.png in Resources */,
+				02E3F59915A8534500F9D125 /* controlpanel_view_background~ipad.png in Resources */,
+				02E3F59A15A8534500F9D125 /* controlpanel_view_background~iphone.png in Resources */,
+				02C977F6169AB287002D403A /* Default-568h@2x.png in Resources */,
+				02C977F7169AB287002D403A /* Default-Landscape~ipad.png in Resources */,
+				02C977F8169AB287002D403A /* Default-Portrait~ipad.png in Resources */,
+				02C977F9169AB287002D403A /* Default.png in Resources */,
+				02C977FA169AB287002D403A /* Default@2x.png in Resources */,
+				02B46681169C313600A15AF5 /* scrolltabs_border-568h@2x~iphone.png in Resources */,
+				02273E37169C7E44005F31CD /* scrolltabs_background-568h@2x~iphone.png in Resources */,
+				02273E70169C95B3005F31CD /* LSHorizontalScrollTabView.xib in Resources */,
+				02273E74169CBBD2005F31CD /* scrolltabs_horizontal_border.png in Resources */,
+				02273E75169CBBD2005F31CD /* scrolltabs_horizontal_border@~ipad.png in Resources */,
+				02273E76169CBBD2005F31CD /* scrolltabs_horizontal_border@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		024D8D29158C8A7700AF8C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024D8D3E158C8A7700AF8C60 /* main.m in Sources */,
+				024D8D42158C8A7700AF8C60 /* AppDelegate.m in Sources */,
+				02B12FD7158F10780000D1E3 /* LSRootViewController.m in Sources */,
+				027F51E315935E380099AB19 /* LSScrollTabBarView.m in Sources */,
+				027F51E415935E380099AB19 /* LSTabBarView.m in Sources */,
+				027F51E515935E380099AB19 /* LSTabControl.m in Sources */,
+				027F51E615935E380099AB19 /* LSTabItem.m in Sources */,
+				027F51E715935E380099AB19 /* LSTintedButton.m in Sources */,
+				02273E40169C8EAD005F31CD /* LSTintedButtonsDemoViewController.m in Sources */,
+				02273E43169C8EB9005F31CD /* LSTabControlsDemoViewController.m in Sources */,
+				02273E46169C8EC2005F31CD /* LSStaticTabViewDemoViewController.m in Sources */,
+				02273E49169C8ECD005F31CD /* LSHorizontalScrollTabViewDemoViewController.m in Sources */,
+				02273E4C169C8ED6005F31CD /* LSVerticalScrollTabViewDemoViewController.m in Sources */,
+				02273E51169C8EDE005F31CD /* LSMultiTabDemoViewController_Notifications.m in Sources */,
+				02273E52169C8EDE005F31CD /* LSMultiTabDemoViewController.m in Sources */,
+				02273E55169C8F04005F31CD /* ObjectCollection.m in Sources */,
+				02273E5D169C8FAB005F31CD /* ColorButton.m in Sources */,
+				02273E5E169C8FAB005F31CD /* UIButton+shortcuts.m in Sources */,
+				02273E5F169C8FAB005F31CD /* UIColor+components.m in Sources */,
+				02273E6A169C8FD6005F31CD /* BadgeView.m in Sources */,
+				02273E6B169C8FD6005F31CD /* ColorPickerBackgroundView.m in Sources */,
+				02273E6C169C8FD6005F31CD /* DrawingUtilities.m in Sources */,
+				02273E6D169C8FD6005F31CD /* UIImage+shortcuts.m in Sources */,
+				02273E6E169C8FD6005F31CD /* UIView+Addictions.m in Sources */,
+				02273E79169CD0B3005F31CD /* MultiTabItem.m in Sources */,
+				02273E7E169CD439005F31CD /* ScrollTabBarController.m in Sources */,
+				02273E7F169CD439005F31CD /* TestVerticalScrollTabBarView.m in Sources */,
+				02273E84169CD45F005F31CD /* InnerTabControl.m in Sources */,
+				02273E85169CD45F005F31CD /* SimpleTabControl.m in Sources */,
+				02273E8F169CD483005F31CD /* HorizontalTabControl.m in Sources */,
+				02273E90169CD483005F31CD /* MultiTabControl.m in Sources */,
+				02273E91169CD483005F31CD /* TintedTabControl.m in Sources */,
+				02273E92169CD483005F31CD /* TintedVerticalTabControl.m in Sources */,
+				02273E95169CD4BA005F31CD /* VerticalScrollTabBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		024D8D3A158C8A7700AF8C60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024D8D3B158C8A7700AF8C60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		024D8D55158C8A7700AF8C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		024D8D56158C8A7700AF8C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		024D8D58158C8A7700AF8C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSTabs/LSTabs-Prefix.pch";
+				INFOPLIST_FILE = "LSTabs/LSTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		024D8D59158C8A7700AF8C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LSTabs/LSTabs-Prefix.pch";
+				INFOPLIST_FILE = "LSTabs/LSTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024D8D27158C8A7700AF8C60 /* Build configuration list for PBXProject "LSTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024D8D55158C8A7700AF8C60 /* Debug */,
+				024D8D56158C8A7700AF8C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		024D8D57158C8A7700AF8C60 /* Build configuration list for PBXNativeTarget "LSTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				024D8D58158C8A7700AF8C60 /* Debug */,
+				024D8D59158C8A7700AF8C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 024D8D24158C8A7700AF8C60 /* Project object */;
+}
