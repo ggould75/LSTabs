@@ -121,11 +121,11 @@
 #pragma mark -
 #pragma mark Private
 
+// @TODO: not completed and tested!
 - (void)_updateOverflow {
     if (scrollView.contentOffset.x < (scrollView.contentSize.width-self.viewWidth)) {
         if (!overflowRight) {
             overflowRight = [[UIView alloc] initWithFrame:CGRectZero];
-//            overflowRight.style = TTSTYLE(tabOverflowRight);
             overflowRight.userInteractionEnabled = NO;
             overflowRight.backgroundColor = [UIColor clearColor];
             [overflowRight sizeToFit];
@@ -141,7 +141,6 @@
     if (scrollView.contentOffset.x > 0) {
         if (!overflowLeft) {
             overflowLeft = [[UIView alloc] initWithFrame:CGRectZero];
-//            overflowLeft.style = TTSTYLE(tabOverflowLeft);
             overflowLeft.userInteractionEnabled = NO;
             overflowLeft.backgroundColor = [UIColor clearColor];
             [overflowLeft sizeToFit];
