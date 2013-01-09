@@ -48,7 +48,7 @@ Limitations
 *   in LSScrollTabBarView the overflowLeft/overflowRight views handling needs to be completed and tested
 
 
-Licence
+License
 ======
 
 This code is distributed under the terms and conditions of the MIT license.
