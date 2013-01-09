@@ -74,9 +74,9 @@ enum {
 
 @interface LSTabBarView : UIView {
   @protected
-	NSInteger        selectedTabIndex;
-	NSMutableArray  *tabItems;
-	NSMutableArray  *tabViews;
+    NSInteger        selectedTabIndex;
+    NSMutableArray  *tabItems;
+    NSMutableArray  *tabViews;
     NSMutableArray  *frames;
     
     CGFloat          margin;
@@ -85,7 +85,7 @@ enum {
     BOOL             contentSizeCached;
     CGSize           contentSize;
     
-	id <LSTabBarViewDelegate> delegate;
+    id <LSTabBarViewDelegate> delegate;
 }
 
 @property (nonatomic, assign)   LSTabItem     *selectedTabItem;
