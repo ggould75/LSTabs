@@ -32,8 +32,8 @@
 
 /**
  * Max allowed badge number. 
- * If the value to display is greater than the value returned by this function,
- * the text will be [maxBadgeNumber]+
+ * If the value to display is greater than the value returned by this accessor,
+ * the text will be displayed as [maxBadgeNumber]+
  */
 @property (nonatomic, assign) NSUInteger maxBadgeNumber;
 
