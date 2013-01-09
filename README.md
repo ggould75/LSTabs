@@ -33,7 +33,7 @@ Requirements
 
 LSTabs works from iOS 4.3 to the latest versions (the last tested version is 6.0.2).
 
-<b>Works both with ARC and non-ARC projects.</b> (remember to add the "-fno-objc-arc" option to each .m files if your project is ARC).
+<b>Works both with ARC and non-ARC projects</b> (remember to add the "-fno-objc-arc" option to each .m files if your project is ARC).
 
 It depends on the following Apple frameworks:
 *   Foundation.framework
